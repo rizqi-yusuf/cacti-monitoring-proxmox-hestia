@@ -1,0 +1,9 @@
+*.log
+*.rrd
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_secret*
+*_token*
