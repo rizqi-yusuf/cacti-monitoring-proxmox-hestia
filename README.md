@@ -1,5 +1,7 @@
 # Monitoring Server dengan Cacti di Proxmox + HestiaCP
 
+[English](README.en.md) | **Bahasa Indonesia**
+
 Dokumentasi mini project pemantauan server pada Debian di Proxmox, dengan Cacti yang di-host melalui HestiaCP. Panduan ini menggabungkan setup yang sudah berjalan dengan catatan praktikum Cacti dan troubleshooting yang ditulis ulang supaya langkahnya bisa diverifikasi.
 
 > **Batasan penting:** grafik yang sudah dibuktikan di screenshot adalah metrik server (Processes, Memory Usage, Logged in Users, Load Average) serta status/reachability device. Belum ada bukti grafik jumlah request HTTP, bandwidth website, atau pengunjung unik. Jangan anggap ping atau status `Up` sebagai analytics pengunjung.
